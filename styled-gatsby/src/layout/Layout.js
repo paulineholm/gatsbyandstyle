@@ -1,6 +1,8 @@
 import React from 'react';
 import styled, { createGlobalStyle, ThemeProvider } from 'styled-components';
 import { theme } from '../utils/theme';
+import Navbar from '../components/NavBar/Navbar';
+
 
 const GlobalStyle = createGlobalStyle`
   body {
@@ -12,6 +14,13 @@ const GlobalStyle = createGlobalStyle`
   
   *, *::before, *::after {
     box-sizing: border-box;
+  }
+
+  a{
+    color: black;
+    text-decoration: none;
+    text-transform: lowercase;
+    padding: 27px 25px;
   }
 `;
 
@@ -30,6 +39,7 @@ const Layout = ({children}) => (
     <>
       <GlobalStyle />
       <StyledWrapper>
+      <Navbar />
         {children}
       </StyledWrapper>
     </>
