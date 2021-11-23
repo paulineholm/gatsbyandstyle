@@ -6,8 +6,8 @@ const GlobalStyle = createGlobalStyle`
   body {
     padding: 0;
     margin: 0;
+    color: black;
     font-family: 'Montserrat';
-    color: white;
   }
   
   *, *::before, *::after {
@@ -21,7 +21,7 @@ const StyledWrapper = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: ${({theme}) => theme.colors.dark};
+  background: ${({theme}) => theme.colors.light};
   position: relative;
 `;
 

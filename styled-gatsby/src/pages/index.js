@@ -6,7 +6,7 @@ import Button from '../components/Button/Button';
 
 const IndexPage = () => (
   <Layout>
-    <H1>Hello, people</H1>
+    <H1 isBlue>Hello, people</H1>
     <Button as={Link} to="/about">About page</Button>
   </Layout>
 )
