@@ -14,7 +14,12 @@ const Flex = styled.div`
     left: 0;
 `
 
-
+const StyledLink = styled(Link)`
+    color: black;
+    text-decoration: none;
+    text-transform: lowercase;
+    padding: 27px 20px;
+`;
 
 
 
@@ -23,10 +28,10 @@ const Navbar = () => {
         <NavMenu>
             <Flex>
             <Logo />
-            <Link to="/">About</Link>
-            <Link to="/about">Articles</Link>
-            <Link to="/gallery">Gallery</Link>
-            <Link to="/contact">Contact</Link>
+            <StyledLink to="/">About</StyledLink>
+            <StyledLink to="/about">Articles</StyledLink>
+            <StyledLink to="/gallery">Gallery</StyledLink>
+            <StyledLink to="/contact">Contact</StyledLink>
             </Flex>
         </NavMenu>
     )

@@ -17,10 +17,7 @@ const GlobalStyle = createGlobalStyle`
   }
 
   a{
-    color: black;
     text-decoration: none;
-    text-transform: lowercase;
-    padding: 27px 25px;
   }
 `;
 
