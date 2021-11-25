@@ -6,12 +6,14 @@ const Button = styled.button`
   justify-content: center;
   align-items: center;
   text-decoration: none;
+  text-transform: lowercase;
   height: 40px;
-  border-radius: 50px;
-  border: 2px solid ${({theme}) => theme.colors.primary};
-  color: ${({theme}) => theme.colors.primary};
-  font-size: 1em;
-  font-weight: 800;
+  border: 2px solid ${({theme}) => theme.colors.brightblue};
+  color: ${({theme}) => theme.colors.brightblue};
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin: 10px 0;
   transition: box-shadow .3s ease;
   
   :hover {

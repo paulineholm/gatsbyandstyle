@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 const SiteLogo = styled.p`
-    color: ${({theme}) => theme.colors.brightblue};;
+    color: ${({theme}) => theme.colors.brightblue};
     text-transform: uppercase;
     font-family: 'Bebas Neue', cursive;
     letter-spacing: 1px;

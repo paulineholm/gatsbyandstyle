@@ -20,7 +20,7 @@ module.exports = {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
         fonts: [
-          `Montserrat`,
+          `Montserrat\:100,200,30,400,500,600,700,800`,
           `Bebas Neue`
         ],
         display: 'swap'

@@ -3,11 +3,40 @@ import { Link } from 'gatsby';
 import Layout from '../layout/Layout';
 import H1 from '../components/H1/H1';
 import Button from '../components/Button/Button';
+import { StaticImage } from 'gatsby-plugin-image';
+import WidthText from '../components/TextBoxes/WidthText';
+import styled from 'styled-components'
+
+const FrontPageLeft = styled.div`
+    width: 60%;
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    align-items:flex-end;
+    padding-right: 2em;
+`
+
+const FrontPageRight = styled.div`
+    width: 40%;
+`
+
 
 const IndexPage = () => (
   <Layout>
-    <H1 isBlue>Hello, people</H1>
-    <Button as={Link} to="/about">About page</Button>
+    <FrontPageLeft>
+      <H1 isBlue>Middle Eastern Food Heaven</H1>
+      <WidthText>While you cannot travel, we can take you for a journey in your own kitchen!
+        Are you ready?
+      </WidthText>
+      <Button as={Link} to="/about">Start Cooking 🤌🏻</Button>
+    </FrontPageLeft>
+    <FrontPageRight>
+      <StaticImage
+      src="../images/unsplash3-4608x3072.jpg"
+      alt="Pomegranates"
+      placeholder="tracedSVG"
+      />
+    </FrontPageRight>
   </Layout>
 )
 

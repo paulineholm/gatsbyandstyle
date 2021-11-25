@@ -4,7 +4,7 @@ import { Logo } from './Logo';
 import { Link } from 'gatsby';
 
 const NavMenu = styled.nav`
-  color:red;
+  color:black;
 `;
 
 const Flex = styled.div`
@@ -18,7 +18,8 @@ const StyledLink = styled(Link)`
     color: black;
     text-decoration: none;
     text-transform: lowercase;
-    padding: 27px 20px;
+    padding: 27.5px 20px;
+    font-weight: 500;
 `;
 
 
