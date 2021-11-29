@@ -7,6 +7,7 @@ import AboutTextBox from '../components/TextBoxes/AboutTextBox';
 import { StaticImage } from 'gatsby-plugin-image';
 import H1 from '../components/H-ers/H1';
 import H2 from '../components/H-ers/H2';
+import Flex from '../layout/Flex';
 
 
 const FrontPageLeft = styled.div`
@@ -19,6 +20,7 @@ const FrontPageRight = styled.div`
 
 const AboutPage = () => (
   <Layout>
+    <Flex>
     <FrontPageLeft>
       <UnderPageTextWraper>
       <H1>About</H1>
@@ -39,6 +41,7 @@ const AboutPage = () => (
       placeholder="tracedSVG"
       />
     </FrontPageRight>
+    </Flex>
   </Layout>
 );
 

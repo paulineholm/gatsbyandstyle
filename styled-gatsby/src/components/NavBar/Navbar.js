@@ -4,15 +4,15 @@ import { Logo } from './Logo';
 import { Link } from 'gatsby';
 
 const NavMenu = styled.nav`
-  color:black;
-`;
-
-const Flex = styled.div`
+    color: black;
     display: flex;
     position: fixed;
     top: 0;
     left: 0;
-`
+    z-index: 1;
+    background-color: white;
+`;
+
 
 const StyledLink = styled(Link)`
     color: black;
@@ -27,13 +27,11 @@ const StyledLink = styled(Link)`
 const Navbar = () => {
     return(
         <NavMenu>
-            <Flex>
             <Logo />
             <StyledLink to="/about">About</StyledLink>
             <StyledLink to="/articles">Articles</StyledLink>
             <StyledLink to="/gallery">Gallery</StyledLink>
             <StyledLink to="/contact">Contact</StyledLink>
-            </Flex>
         </NavMenu>
     )
 } 

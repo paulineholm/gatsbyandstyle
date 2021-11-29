@@ -6,6 +6,7 @@ import Button from '../components/Button/Button';
 import { StaticImage } from 'gatsby-plugin-image';
 import WidthText from '../components/TextBoxes/WidthText';
 import styled from 'styled-components'
+import Flex from '../layout/Flex';
 
 const FrontPageLeft = styled.div`
     width: 60%;
@@ -23,6 +24,7 @@ const FrontPageRight = styled.div`
 
 const IndexPage = () => (
   <Layout>
+    <Flex>
     <FrontPageLeft>
       <H1 front>Middle Eastern Food Heaven</H1>
       <WidthText front>While you cannot travel, we can take you for a journey in your own kitchen!
@@ -37,6 +39,7 @@ const IndexPage = () => (
       placeholder="tracedSVG"
       />
     </FrontPageRight>
+    </Flex>
   </Layout>
 )
 

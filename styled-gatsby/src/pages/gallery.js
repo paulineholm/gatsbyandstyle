@@ -2,7 +2,10 @@ import React from 'react';
 import Layout from '../layout/Layout'
 import UnderPageTextWraper from '../components/TextBoxes/UnderPageTextWraper';
 import H1 from '../components/H-ers/H1';
+// import { StaticImage } from 'gatsby-plugin-image';
 import WidthText from '../components/TextBoxes/WidthText';
+import GridSixContainer from '../components/Grids/GridSixContainer';
+import GridImgElm from '../components/Grids/GridImgElm';
 
 const GalleryPage = () => (
   <Layout>
@@ -13,6 +16,14 @@ const GalleryPage = () => (
         Are you ready?
         </WidthText>
     </UnderPageTextWraper>
+    <GridSixContainer>
+      <GridImgElm/>
+      <GridImgElm/>
+      <GridImgElm/>
+      <GridImgElm/>
+      <GridImgElm/>
+      <GridImgElm/>
+    </GridSixContainer>
   </Layout>
 );
 

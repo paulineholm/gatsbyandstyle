@@ -23,7 +23,6 @@ const GlobalStyle = createGlobalStyle`
 
 const StyledWrapper = styled.div`
   height: 100vh;
-  display: flex;
   align-items: center;
   background: ${({theme}) => theme.colors.light};
   position: relative;

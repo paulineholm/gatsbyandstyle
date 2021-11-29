@@ -1,9 +1,9 @@
 import styled from "styled-components";
 
 const UnderPageTextWraper = styled.div`
-    position: fixed;
-    top: 110px;
-    left: 60px;
+    padding: 0px 0px 40px 60px;
+    width: 100%;
+    margin-top: 130px;
 `
 
 export default UnderPageTextWraper;
