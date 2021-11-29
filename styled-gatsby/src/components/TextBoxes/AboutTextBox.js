@@ -7,6 +7,7 @@ const AboutTextBox = styled.div`
     padding: 40px 60px;
     line-height: 30px;
     font-size: 18px;
+    margin-top: 20px;
 `
 
 export default AboutTextBox;

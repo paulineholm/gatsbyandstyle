@@ -2,7 +2,7 @@ import React from 'react';
 import Layout from '../layout/Layout'
 import UnderPageTextWraper from '../components/TextBoxes/UnderPageTextWraper';
 import H1 from '../components/H-ers/H1';
-// import { StaticImage } from 'gatsby-plugin-image';
+import { StaticImage } from 'gatsby-plugin-image';
 import WidthText from '../components/TextBoxes/WidthText';
 import GridSixContainer from '../components/Grids/GridSixContainer';
 import GridImgElm from '../components/Grids/GridImgElm';
@@ -17,12 +17,48 @@ const GalleryPage = () => (
         </WidthText>
     </UnderPageTextWraper>
     <GridSixContainer>
-      <GridImgElm/>
-      <GridImgElm/>
-      <GridImgElm/>
-      <GridImgElm/>
-      <GridImgElm/>
-      <GridImgElm/>
+      <GridImgElm>
+        <StaticImage
+      src="../images/unsplash-mini1.png"
+      alt="Pomegranates"
+      placeholder="tracedSVG"
+      />
+      </GridImgElm>
+      <GridImgElm>
+        <StaticImage
+        src="../images/unsplash-mini2.png"
+        alt="Pomegranates"
+        placeholder="tracedSVG"
+        />
+      </GridImgElm>
+      <GridImgElm>
+        <StaticImage
+        src="../images/unsplash-mini3.png"
+        alt="Pomegranates"
+        placeholder="tracedSVG"
+        />
+      </GridImgElm>
+      <GridImgElm>
+        <StaticImage
+        src="../images/unsplash-mini4.png"
+        alt="Pomegranates"
+        placeholder="tracedSVG"
+        />
+      </GridImgElm>
+      <GridImgElm>
+        <StaticImage
+        src="../images/unsplash-mini5.png"
+        alt="Pomegranates"
+        placeholder="tracedSVG"
+        />
+      </GridImgElm>
+      <GridImgElm>
+        <StaticImage
+        src="../images/unsplash-mini6.png"
+        alt="Pomegranates"
+        placeholder="tracedSVG"
+        />
+      </GridImgElm>
     </GridSixContainer>
   </Layout>
 );
