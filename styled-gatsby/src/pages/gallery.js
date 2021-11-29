@@ -1,12 +1,18 @@
 import React from 'react';
-import Button from '../components/Button/Button';
 import Layout from '../layout/Layout'
-import { Link } from 'gatsby'
+import UnderPageTextWraper from '../components/TextBoxes/UnderPageTextWraper';
+import H1 from '../components/H-ers/H1';
+import WidthText from '../components/TextBoxes/WidthText';
 
 const GalleryPage = () => (
   <Layout>
-    <h1>Hello people, this is about page</h1>
-    <Button as={Link} to="/">Go back</Button>
+    <UnderPageTextWraper>
+      <H1>Gallery</H1>
+        <WidthText>
+        While you cannot travel, we can take you for a journey in your own kitchen!
+        Are you ready?
+        </WidthText>
+    </UnderPageTextWraper>
   </Layout>
 );
 

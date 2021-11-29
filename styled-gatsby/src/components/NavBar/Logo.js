@@ -1,7 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
+import { Link } from 'gatsby';
 
-const SiteLogo = styled.p`
+const SiteLogo = styled(Link)`
     color: ${({theme}) => theme.colors.brightblue};
     text-transform: uppercase;
     font-family: 'Bebas Neue', cursive;
@@ -12,6 +13,9 @@ const SiteLogo = styled.p`
     margin: 20px;
 `;
 
+
+
+
 export const Logo = () => {
-    return <SiteLogo>Tefer</SiteLogo>;
+    return <SiteLogo to="/">Tefer</SiteLogo>;
   };

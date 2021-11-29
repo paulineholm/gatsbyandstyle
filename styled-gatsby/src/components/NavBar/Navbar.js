@@ -29,8 +29,8 @@ const Navbar = () => {
         <NavMenu>
             <Flex>
             <Logo />
-            <StyledLink to="/">About</StyledLink>
-            <StyledLink to="/about">Articles</StyledLink>
+            <StyledLink to="/about">About</StyledLink>
+            <StyledLink to="/articles">Articles</StyledLink>
             <StyledLink to="/gallery">Gallery</StyledLink>
             <StyledLink to="/contact">Contact</StyledLink>
             </Flex>
