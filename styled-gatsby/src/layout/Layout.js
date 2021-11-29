@@ -24,7 +24,7 @@ const GlobalStyle = createGlobalStyle`
 const StyledWrapper = styled.div`
   height: 100vh;
   align-items: center;
-  background: ${({theme}) => theme.colors.light};
+  background: ${({theme}) => theme.colors.white};
   position: relative;
 `;
 

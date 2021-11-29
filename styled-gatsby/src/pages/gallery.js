@@ -20,42 +20,42 @@ const GalleryPage = () => (
       <GridImgElm>
         <StaticImage
       src="../images/unsplash-mini1.png"
-      alt="Pomegranates"
+      alt="Creamy Hummus"
       placeholder="tracedSVG"
       />
       </GridImgElm>
       <GridImgElm>
         <StaticImage
         src="../images/unsplash-mini2.png"
-        alt="Pomegranates"
+        alt="Middle Eastern Salad"
         placeholder="tracedSVG"
         />
       </GridImgElm>
       <GridImgElm>
         <StaticImage
         src="../images/unsplash-mini3.png"
-        alt="Pomegranates"
+        alt="Shakshouka"
         placeholder="tracedSVG"
         />
       </GridImgElm>
       <GridImgElm>
         <StaticImage
         src="../images/unsplash-mini4.png"
-        alt="Pomegranates"
+        alt="Soft Dream"
         placeholder="tracedSVG"
         />
       </GridImgElm>
       <GridImgElm>
         <StaticImage
         src="../images/unsplash-mini5.png"
-        alt="Pomegranates"
+        alt="Goulash"
         placeholder="tracedSVG"
         />
       </GridImgElm>
       <GridImgElm>
         <StaticImage
         src="../images/unsplash-mini6.png"
-        alt="Pomegranates"
+        alt="How to shop?"
         placeholder="tracedSVG"
         />
       </GridImgElm>

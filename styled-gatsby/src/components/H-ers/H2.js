@@ -3,7 +3,7 @@ import styled from 'styled-components';
 const H2 = styled.h2`
   font-size:  25px;
   color: ${({theme}) => theme.colors.brightblue};
-  font-weight: 700;
+  font-weight: ${({theme}) => theme.font.bold};
   letter-spacing: 1px;
   text-transform: capitalize;
   margin: 0px;

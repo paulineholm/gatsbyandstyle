@@ -17,7 +17,7 @@ const Button = styled.button`
   transition: box-shadow .3s ease;
   
   :hover {
-    box-shadow: 0 10px 20px -15px #b00007;
+    box-shadow: 0 10px 30px -15px ${({theme}) => theme.colors.warmbeetroot};
   }
 `;
 

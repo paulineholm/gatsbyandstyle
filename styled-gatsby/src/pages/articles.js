@@ -22,7 +22,7 @@ const ArticlesPage = () => (
       <GridImgElm>
         <StaticImage
       src="../images/unsplash-mini1.png"
-      alt="Pomegranates"
+      alt="Creamy Hummus"
       placeholder="tracedSVG"
       />
       <ArticleButton as={Link} to="/">Creamy Hummus by Noel</ArticleButton>
@@ -30,7 +30,7 @@ const ArticlesPage = () => (
       <GridImgElm>
         <StaticImage
         src="../images/unsplash-mini2.png"
-        alt="Pomegranates"
+        alt="Middle Eastern Salad"
         placeholder="tracedSVG"
         />
         <ArticleButton as={Link} to="/">Middle Eastern Salad by Aron</ArticleButton>
@@ -38,7 +38,7 @@ const ArticlesPage = () => (
       <GridImgElm>
         <StaticImage
         src="../images/unsplash-mini3.png"
-        alt="Pomegranates"
+        alt="Shakshouka"
         placeholder="tracedSVG"
         />
         <ArticleButton as={Link} to="/">Shakshouka by Noemi</ArticleButton>
@@ -46,7 +46,7 @@ const ArticlesPage = () => (
       <GridImgElm>
         <StaticImage
         src="../images/unsplash-mini4.png"
-        alt="Pomegranates"
+        alt="Soft Dream"
         placeholder="tracedSVG"
         />
         <ArticleButton as={Link} to="/">Soft Dream by Gal</ArticleButton>
@@ -54,7 +54,7 @@ const ArticlesPage = () => (
       <GridImgElm>
         <StaticImage
         src="../images/unsplash-mini5.png"
-        alt="Pomegranates"
+        alt="Goulash"
         placeholder="tracedSVG"
         />
         <ArticleButton as={Link} to="/">Goulash by Aviv</ArticleButton>
@@ -62,7 +62,7 @@ const ArticlesPage = () => (
       <GridImgElm>
         <StaticImage
         src="../images/unsplash-mini6.png"
-        alt="Pomegranates"
+        alt="Bazaar"
         placeholder="tracedSVG"
         />
         <ArticleButton as={Link} to="/">How to shop the ingredients?</ArticleButton>

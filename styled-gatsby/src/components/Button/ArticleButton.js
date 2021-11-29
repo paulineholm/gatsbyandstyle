@@ -6,7 +6,7 @@ const ArticleButton = styled.button`
   left: 0;
   border: 2px ${({theme}) => theme.colors.brightblue} solid;
   color: ${({theme}) => theme.colors.brightblue};
-  background-color: rgba(0,0,0, 0.6);
+  background-color: ${({theme}) => theme.colors.darktransparent7};
   font-size: 19px;
   font-weight: 600;
   line-height: 19px;

@@ -8,7 +8,7 @@ const SiteLogo = styled(Link)`
     font-family: 'Bebas Neue', cursive;
     letter-spacing: 1px;
     font-size: 32px;
-    font-weight: bold;
+    font-weight: ${({theme}) => theme.font.bold};
     padding: 0 10px;
     margin: 20px;
 `;

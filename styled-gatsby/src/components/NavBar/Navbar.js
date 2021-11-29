@@ -4,18 +4,17 @@ import { Logo } from './Logo';
 import { Link } from 'gatsby';
 
 const NavMenu = styled.nav`
-    color: black;
     display: flex;
     position: fixed;
     top: 0;
     left: 0;
     z-index: 1;
-    background-color: white;
+    background-color: ${({theme}) => theme.colors.white};
 `;
 
 
 const StyledLink = styled(Link)`
-    color: black;
+    color: ${({theme}) => theme.colors.dark};
     text-decoration: none;
     text-transform: lowercase;
     padding: 27.5px 20px;
