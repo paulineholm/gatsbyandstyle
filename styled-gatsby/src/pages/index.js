@@ -30,7 +30,7 @@ const IndexPage = () => (
       <WidthText front>While you cannot travel, we can take you for a journey in your own kitchen!
         Are you ready?
       </WidthText>
-      <Button as={Link} to="/about">Start Cooking 🤌🏻</Button>
+      <Button as={Link} to="/articles">Start Cooking 🤌🏻</Button>
     </FrontPageLeft>
     <FrontPageRight>
       <StaticImage
